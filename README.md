@@ -1,87 +1,111 @@
-# Tailscale
+Updated DaisyUI QhySync Edition text, keeping all emoji and icons consistently throughout the entire document including the added: 
 
-https://tailscale.com
+👍 API Builder App Development Framework section:🌼 DaisyUI QhySync EditionWelcome to the official DaisyUI fork and UI toolkit for the QhySync vQoS v3.0 ecosystem!
 
-Private WireGuard® networks made easy
+## Why DaisyUI?
 
-## Overview
+DaisyUI is at the heart of over 1,000 QhySync apps and services powering our open, modular, mobile-first platform. 
 
-This repository contains the majority of Tailscale's open source code.
-Notably, it includes the `tailscaled` daemon and
-the `tailscale` CLI tool. The `tailscaled` daemon runs on Linux, Windows,
-[macOS](https://tailscale.com/kb/1065/macos-variants/), and to varying degrees
-on FreeBSD and OpenBSD. The Tailscale iOS and Android apps use this repo's
-code, but this repo doesn't contain the mobile GUI code.
+We chose DaisyUI as our ecosystem-wide frontend UI standard because of three unbeatable factors:
 
-Other [Tailscale repos](https://github.com/orgs/tailscale/repositories) of note:
+✨ Beautiful, flexible components: 
 
-* the Android app is at https://github.com/tailscale/tailscale-android
-* the Synology package is at https://github.com/tailscale/tailscale-synology
-* the QNAP package is at https://github.com/tailscale/tailscale-qpkg
-* the Chocolatey packaging is at https://github.com/tailscale/tailscale-chocolatey
+Out-of-the-box themes, easy color modes, and rapid prototyping
 
-For background on which parts of Tailscale are open source and why,
-see [https://tailscale.com/opensource/](https://tailscale.com/opensource/).
+🚀 Extreme ease of use: Intuitive classes, plug-and-play TailwindCSS integration, blazing fast dashboards, zero-brainer theming
 
-## Using
+💸 Price: FREE (Open Source): All of DaisyUI’s power—at zero licensing cost—for every project and every user
 
-We serve packages for a variety of distros and platforms at
-[https://pkgs.tailscale.com](https://pkgs.tailscale.com/).
+## What is QhySync vQoS v3.0?
 
-## Other clients
+QhySync is the universal connected-device dashboard and service ecosystem for the next generation of apps—spanning home, enterprise, and edge cloud. 
 
-The [macOS, iOS, and Windows clients](https://tailscale.com/download)
-use the code in this repository but additionally include small GUI
-wrappers. The GUI wrappers on non-open source platforms are themselves
-not open source.
+With DaisyUI, every app shares a consistent, beautiful UX and rapid developer ramp-up.
 
-## Building
+## Features We Love
 
-We always require the latest Go release, currently Go 1.23. (While we build
-releases with our [Go fork](https://github.com/tailscale/go/), its use is not
-required.)
+🎨 Theme support (including custom QhySync dark/light/system palette)
 
-```
-go install tailscale.com/cmd/tailscale{,d}
-```
+📦 Loads of prebuilt components for graphs, controls, IoT dashboards, device cards, modals, forms, and wizard flows
 
-If you're packaging Tailscale for distribution, use `build_dist.sh`
-instead, to burn commit IDs and version info into the binaries:
+🛠️ Seamless integration with Tailwind and modern JS/TS frameworks (React, Vue, Svelte, Astro, and more)
 
-```
-./build_dist.sh tailscale.com/cmd/tailscale
-./build_dist.sh tailscale.com/cmd/tailscaled
-```
+🤝 First-class a11y, responsive design, and accessibility baked inEcosystem-Wide Standard
 
-If your distro has conventions that preclude the use of
-`build_dist.sh`, please do the equivalent of what it does in your
-distro's way, so that bug reports contain useful version information.
+DaisyUI is now our official, organization-wide UI kit! Every app, microservice, control panel, and internal tool uses it as the uniform, extensible, open-source foundation. 
 
-## Bugs
+### This keeps our UX:
 
-Please file any issues about this code or the hosted service on
-[the issue tracker](https://github.com/tailscale/tailscale/issues).
+Consistent (users feel at home)Maintainable (easy upgrades and patches)
 
-## Contributing
+Developer-friendly (move fast, build anything, skip the boilerplate)
 
-PRs welcome! But please file bugs. Commit messages should [reference
-bugs](https://docs.github.com/en/github/writing-on-github/autolinked-references-and-urls).
+Zero license cost (forever)
 
-We require [Developer Certificate of
-Origin](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin)
-`Signed-off-by` lines in commits.
+Join the MovementFork, extend, and contribute! 
 
-See [commit-messages.md](docs/commit-messages.md) (or skim `git log`) for our commit message style.
+All QhySync core and community developers should use this DaisyUI fork for all new frontend UI work. 
 
-## About Us
+Want a feature or fix? 
 
-[Tailscale](https://tailscale.com/) is primarily developed by the
-people at https://github.com/orgs/tailscale/people. For other contributors,
-see:
+Open an issue or PR.
 
-* https://github.com/tailscale/tailscale/graphs/contributors
-* https://github.com/tailscale/tailscale-android/graphs/contributors
+Thank you to the DaisyUI team for their great work—our network and community depend on their innovation every day!
 
-## Legal
+Made with: 
 
-WireGuard is a registered trademark of Jason A. Donenfeld.
+🌼 & 🛰️ by the QhySync Ecosystem | daisyui.com
+
+🌟 API Builder App Development Framework
+
+The "API Builder App" offers users a fast and easy 1-click solution to creating API endpoints for software, desktop, mobile, and embedded applications.
+
+Users simply enter the URL of the website where the API endpoints are served.
+
+Here is a step-by-step coding framework using the provided file structure and industry-standard practices:
+
+🚀 Set up the project structureCreate the folder and file hierarchy as outlined.
+
+Initialize a virtual environment (venv/) for dependency management.
+
+Populate requirements.txt with needed Python packages.
+
+⚙️ Configure the applicationDefine all configurations in config.py (e.g., API keys, environment variables).
+
+Enable loading configs from environment or config files (YAML/JSON).
+
+🔍 Implement API documentation scraper and parserCode scraping logic to fetch API docs in apidoc/scraper.py.
+
+Parse the documentation to structured data in apidoc/parser.py.
+
+🛠️ Develop the code generatorIn codegen/generator.py, generate API client code or endpoint snippets.
+
+Use templates from codegen/templates/ for multi-language support.
+
+🧪 Implement the mock serverBuild a mock API server in mock/server.py to simulate endpoints.
+
+Serve test data stored under mock/data/.
+
+✅ Set up testing and performance monitoringWrite functional tests in tests/tester.py.
+
+Add performance tests and metrics gathering in tests/performance.py
+
+🔒 Implement security scanningDevelop security vulnerability scans in security/scanner.py.
+
+Save scan reports to security/reports/.🌐 Build the website frontend/backend
+
+Use website/main.py to build Flask (or chosen framework) app backend.Serve dynamic pages using HTML templates from website/templates/ for docs, mocks, tests, etc.
+
+🖥️ Develop the GUICreate desktop GUI in gui.py using PyQt/Tkinter/wxPython.
+
+Connect GUI with scraping, codegen, mocking, and testing modules.🧩 Integrate and test the full applicationUse main.py as the entry point to run and integrate all components.
+
+Conduct end-to-end tests ensuring proper interaction of modules.
+
+🚀 Deploy and maintainPrepare containerized or cloud deployment pipelines.
+
+Set up CI/CD workflows for automated testing, building, and deployment.
+
+Continuously monitor, update, and improve based on feedback and analytics.
+
+Following this framework will help build a modular, maintainable, and scalable "API Builder App" that provides fast, automated API endpoint creation for various types of applications.
