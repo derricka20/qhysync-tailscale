@@ -1,6 +1,8 @@
 Updated DaisyUI QhySync Edition text, keeping all emoji and icons consistently throughout the entire document including the added: 
 
-👍 API Builder App Development Framework section:🌼 DaisyUI QhySync EditionWelcome to the official DaisyUI fork and UI toolkit for the QhySync vQoS v3.0 ecosystem!
+👍 API Builder App Development Framework section:🌼 DaisyUI QhySync Edition
+
+# Welcome to the official DaisyUI fork and UI toolkit for the QhySync vQoS v3.0 ecosystem!
 
 ## Why DaisyUI?
 
