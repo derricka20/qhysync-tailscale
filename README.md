@@ -54,7 +54,7 @@ Open an issue or PR.
 
 Thank you to the DaisyUI team for their great work—our network and community depend on their innovation every day!
 
-Made with: 
+### Made with: 
 
 🌼 & 🛰️ by the QhySync Ecosystem | daisyui.com
 
